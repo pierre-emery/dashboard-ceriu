@@ -12,15 +12,72 @@ title: Suivi du projet
 
 # Suivi de projet
 
-> :bulb: Cette page documente l’évolution du projet dans le temps.
-> Elle sert à rendre visibles les décisions, ajustements et apprentissages.
-> Les entrées peuvent être hebdomadaires ou bi-hebdomadaires.  
-> N'oubliez pas d’effacer ou de mettre en commentaires les notes (`>`) avant la remise finale.
 
 ---
 
-## Semaine 1 (12–18 janvier)
+## Semaine 1 (6-12 mai)
 
+### Objectifs de la période
+- Prendre connaissance du projet livré au trimestre précédent.
+- Apprendre à utiliser Power BI
+- Tester localement ce qui a été livré au trimsestre précédent.
+- Mettre à jour les premières versions des documents index.md, analyse.md
+
+### Travail réalisé
+
+!!! abstract "Avancement"
+    - [x] Lecture du projet précédent
+        - Lecture du code livré
+        - Lecture du rapport
+    - [x] Tutoriels Power BI
+
+
+### Décisions et ajustements
+
+
+!!! info "Cadrage initial du projet"
+    - Il faut adapter le projet en fonction des retours de CERIU
+    - Transformer les scripts Python en une librairie réutilisable pour que le projet aille une valeur au-delà de l'usage chez CERIU.
+
+### Difficultés rencontrées
+
+---
+
+## Semaine 2 (13-19 mai)
+
+### Objectifs de la période
+- Clarifier les attentes du CERIU
+- Explorer les limites de Power BI, savoir quelles actions sont possibles (filtres, changements de vues, choisir affichages lors de l'export, dépendances entre tableaux/graphiques)
+- Au fur et à mesure qu'on reçoit les accès, tester les endpoints.
+
+### Travail réalisé
+
+!!! abstract "Avancement"
+    - [X] Tester plusieurs actions possibles dans Power BI
+        - Drill through
+        - Filtres
+        - Choisir visuels à l'export
+    - [ ] Tester les endpoints MailChimp
+        - pas accès aux clés d'API
+
+### Décisions et ajustements
+
+!!! info "Attentes de CERIU"
+    - Mise à jour des livrables attendus côté CERIU : 
+        - Le livrable le plus attendu est de permettre la séparation par pôle.
+        - Ajouter des nouvelles données (réseaux sociaux).
+        - Changements de certains graphiques qu'ils considèrent inexploitable.
+
+### Difficultés rencontrées
+
+
+!!! warning "Difficultés"
+    Il n'y a rien qui permet la séparation par pôle triviallement, il faut trouver une solution.
+
+---
+
+## Semaine 3 (20–26 mai)
+> Template, à compléter
 ### Objectifs de la période
 - Clarifier la problématique
 - Explorer les solutions existantes

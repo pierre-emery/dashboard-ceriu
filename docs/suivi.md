@@ -71,12 +71,42 @@ title: Suivi du projet
 ### Difficultés rencontrées
 
 
-!!! warning "Difficultés"
-    Il n'y a rien qui permet la séparation par pôle triviallement, il faut trouver une solution.
-
+!! warning "Séparation par pôle"
+    Aucun élément trivial dans les données (URL, paramètres GA4) ne permet de distinguer les pôles. Plusieurs pistes à explorer : taggage manuel via des dimensions personnalisées GA4, filtrage côté backend selon des règles d'URL, ou ajout d'une table de correspondance maintenue séparément. À discuter avec le CERIU.
 ---
 
 ## Semaine 3 (20–26 mai)
+
+### Objectifs de la période
+- Tester les endpoints GA4 et Mailchimp une fois les accès reçus.
+- Faire un premier travail de prototypage pour préparer la prochaine rencontre avec le partenaire.
+
+### Travail réalisé
+
+!!! abstract "Avancement"
+    - [x] Tests des endpoints
+        - Configuration des clés nécessaire.
+        - Tests des endpoints fonctionne bien.
+    - [ ] Prototypage dans Power BI
+        - Début de prototypage dans Power BI.
+        - À poursuivre la semaine prochaine.
+
+### Décisions et ajustements
+
+!!! info "Nouvelle direction : page d'exploration interactive"
+    - Suite à un échange avec le superviseur, puis avec le partenaire, ajout d'une page d'exploration libre aux livrables envisagés.
+    - L'idée : permettre à l'utilisateur de questionner le jeu de données en choisissant lui-même quoi afficher et sous quelle forme, plutôt que de se limiter aux visuels figés.
+
+!!! info "Rencontre avec le partenaire : clarification des attentes"
+    - Échange détaillé avec le CERIU sur leurs attentes graphique par graphique et source par source.
+    - Plusieurs points ont été mis au clair, notamment des alternatives au problème de la séparation par pôle en attendant la refonte de leur site web : utilisation d'un fichier Excel maintenu manuellement, listant les URLs et publications associées à chaque pôle, qui servirait de table de correspondance côté backend ou Power BI.
+
+### Difficultés rencontrées
+
+!!! warning "Mise à jour des données côté Power BI"
+    Le partenaire a partagé qu'ils n'arrivaient pas à faire fonctionner le rafraîchissement automatique des données dans Power BI. Faudrait peut-être planifier un guide ou une démo permettant au CERIU de faire tourner localement le code d'Ibrahim de leur côté.
+
+## Semaine 4 (27 mai–2 juin)
 > Template, à compléter
 ### Objectifs de la période
 - Clarifier la problématique

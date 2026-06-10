@@ -13,11 +13,11 @@ title: Vue d'ensemble du projet
 # Vue d'ensemble du projet
 
 !!! info "Informations générales"
-    **Session**: Été 2026  
-    **Auteur(s)**: Pierre Emery (20278920)    
-    **Thème(s)**: Intégration de données, Visualisation de données, Tableaux de bord KPI, Réutilisabilité logicielle (librairie Python)    
-    **Superviseur(s)**: Louis-Édouard Lafontant (DIRO)    
-    **Collaborateur(s):** CERIU (Centre d'expertise et de recherche en infrastructures urbaines)
+    **Session**: Été 2026       
+    **Auteur(s)**: Pierre Emery (20278920)     
+    **Thème(s)**: Intégration de données, Visualisation de données, Tableaux de bord KPI, Réutilisabilité logicielle (librairie Python)      
+    **Superviseur(s)**: Louis-Édouard Lafontant (DIRO)      
+    **Collaborateur(s):** CERIU (Centre d'expertise et de recherche en infrastructures urbaines)   
 
 ## Description du projet
 

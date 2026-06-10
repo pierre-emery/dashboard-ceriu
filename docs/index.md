@@ -14,9 +14,9 @@ title: Vue d'ensemble du projet
 
 !!! info "Informations générales"
     **Session**: Été 2026  
-    **Auteur(s)**: Pierre Emery (20278920) 
-    **Thème(s)**: Intégration de données multi-sources, Tableaux de bord KPI, Réutilisabilité logicielle (librairie Python)  
-    **Superviseur(s)**: Louis-Édouard Lafontant (DIRO)
+    **Auteur(s)**: Pierre Emery (20278920)    
+    **Thème(s)**: Intégration de données, Visualisation de données, Tableaux de bord KPI, Réutilisabilité logicielle (librairie Python)    
+    **Superviseur(s)**: Louis-Édouard Lafontant (DIRO)    
     **Collaborateur(s):** CERIU (Centre d'expertise et de recherche en infrastructures urbaines)
 
 ## Description du projet
@@ -70,9 +70,18 @@ Projet individuel réalisé par Pierre Emery dans la continuation d'un premier p
 !!! info
     Le suivi complet est disponible dans la page [Suivi de projet](suivi.md).
 
-| Activités                      | Début   |   Fin    | Livrable                            | Statut      |
-|--------------------------------|---------|----------|-------------------------------------|-------------|
-| Ouverture de projet            | 4 mai   | 15 mai   | Proposition de projet               | ✅ Terminé  |
-| Études préliminaires           | 4 mai   | 26 mai   | Document d'analyse                  | ✅ Terminé  |
-| Conception & réalisation       | 26 mai  | 1 aout   | Librairie + dashboard complété      | 🔄 En cours |
-| Présentation + Rapport         | 7 aout  | 14 aout  | Présentation + Rapport              | ⏳ À venir  |
+| Activités                                      | Début    |   Fin    | Livrable                                  | Statut      |
+|------------------------------------------------|----------|----------|-------------------------------------------|-------------|
+| Études préliminaires / appropriation du projet hérité | 4 mai    | 19 mai   | Pas vraiment de livrables          | ✅ Terminé  |
+| Débuts avec Power BI, faire tutoriels et tester dynamique de slicers et dépendances entre les tables | 4 mai    | 20 mai   | Pas vraiment de livrables  | ✅ Terminé  |
+| **Phase 1 Dashboard exploitable (CERIU)**      | **20 mai** | **4 juil.** |  Tableau de bord exploitable par le CERIU | 🔄 En cours |
+| ↳ Prototypage des ajustements visuels          | 20 mai   | 2 juin   | Maquette des visuels retravaillés         | 🔄 En cours |
+| ↳ Rafinement visuel du prototype               | 3 juin   | 9 juin   | Dashboard présentable au CERIU            | 🔄 En cours |
+| ↳ Stabilisation de l'authentification GA4      | 10 juin   | 16 juin  | Token durable (Service Account)          | ⏳ À venir  |
+| ↳ Séparation par pôle                          | 10 juin  | 4 juil.  | Filtrage par pôle dans le dashboard       | ⏳ À venir  |
+| ↳ Intégration de nouvelles sources             | 17 juin  | 4 juil.  | Viméo / LinkedIn / Facebook (selon accès) | ⏳ À venir  |
+| **Phase 2 Refonte du backend**                 | **4 juil.** | **1 aout** |                                      | ⏳ À venir  |
+| ↳ Intégration de nouvelles sources             | 17 juin  | 4 juil.  | Viméo / LinkedIn / Facebook (selon accès) | ⏳ À venir  |
+| ↳ Refactor des scripts (paramétrabilité)       | 4 juil.  | 18 juil. | Connecteurs paramétrables                 | ⏳ À venir  |
+| ↳ Documenter                                   | 18 juil. | 1 aout   | Documentation complète                    | ⏳ À venir  |
+| Présentation + Rapport                         | 7 aout   | 14 aout  | Présentation + Rapport                    | ⏳ À venir  |

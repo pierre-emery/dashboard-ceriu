@@ -107,6 +107,67 @@ title: Suivi du projet
     Le partenaire a partagé qu'ils n'arrivaient pas à faire fonctionner le rafraîchissement automatique des données dans Power BI. Faudrait peut-être planifier un guide ou une démo permettant au CERIU de faire tourner localement le code d'Ibrahim de leur côté.
 
 ## Semaine 4 (27 mai–2 juin)
+
+### Objectifs de la période
+- Poser l'architecture de la page d'exploration (slicers source/métrique, field parameters, bookmarks)
+- Avancer le nettoyage des données Power Query héritées
+- Implémenter la catégorisation des campagnes Mailchimp
+
+### Travail réalisé
+
+!!! abstract "Avancement"
+    - [x] Page pour Mailchimp retravaillée
+        - Filtrage par mots-clés pour les sept catégories définies +  « Autre »
+        - Graphiques et tableaux pour la vue générale ainsi que la vue par catégorie
+    - [x] Organisation globale du prototype
+        - Chaque page précise et générale sont en brouillons, à rendre plus joli.
+    - [ ] Page d'exploration
+        - [x] Slicer de source + slicer de métrique conditionnel
+        - [x] Field parameters pour les dimensions temporelles et catégorielles
+        - [ ] Bascule entre sources et changement de type de graphique via bookmarks marche pas encore parfaitement
+   
+
+### Décisions et ajustements
+
+!!! info "Décisions"
+    - Installer ou copier un thème, il faut rendre le graphique plus joli et plus facilement interprétable. 
+
+### Difficultés rencontrées
+
+!!! warning "Difficultés"
+    - Difficultés à rendre la page d'exploration réellement exploitable à cause des limitations des bookmarks. 
+
+## Semaine 5 (3 juin–9 juin)
+
+### Objectifs de la période
+- Clarifier l'architecture d'authentification du backend hérité
+- Poursuivre le nettoyage des données (noms d'affichage, noms de pages)
+- Avancer la navigation et la finition visuelle du dashboard
+
+### Travail réalisé
+
+!!! abstract "Avancement"
+    - [x] Menu de navigation entre les pages
+    - [x] Nettoyage Power Query
+        - Nettoyage du nom des documents
+        - Récupération des noms de pages depuis des tables additionnelles
+        - Fix de certains problèmes ; voir difficultés
+    - [x] Légendes implémentées pour les graphiques de la page principale
+    - [ ] Page d'exploration 
+        - [x] Fix pour le problème du changement de source, trois pages via boutons
+        - [ ] Il y a encore des améliorations à faire pour l'outil. En parler avec le superviseur, limitations de bookmark.
+
+### Décisions et ajustements
+
+!!! info "Décisions"
+    - Demande du CERIU, évaluer le passage de Power BI à Google Data Studio
+### Difficultés rencontrées
+
+!!! warning "Difficultés"
+    - Préfixes GA4 obsolètes dans les requêtes héritées (`keyEvents:`, `customEvent:`) référençant des configurations qui ne correspondent plus ; les événements existent mais doivent être accédés sans ces préfixes.
+    - Pour la page d'exploration, la bascule de mode réinitialise le type de graphique au défaut : comportement attendu simplement une limitation de bookmark.
+
+## Semaine 6 (10 juin–16 juin)
 > Template, à compléter
 ### Objectifs de la période
 - Clarifier la problématique
